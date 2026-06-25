@@ -1,34 +1,22 @@
-# Gradle files
-.gradle/
+# CineStream - Source code is private
+*.java
+*.kt
+*.gradle
+*.xml
+!docs/**/*.xml
 build/
-
-# Local configuration file (sdk path, etc)
-local.properties
-
-# Log/OS Files
-*.log
-
-# Android Studio generated files and folders
-captures/
-.externalNativeBuild/
-.cxx/
-*.aab
-*.apk
-output-metadata.json
-
-# IntelliJ
-*.iml
+.gradle/
 .idea/
-misc.xml
-deploymentTargetDropDown.xml
-render.experimental.xml
-
-# Keystore files
-*.jks
+*.iml
+app/
+!web/app/
+src/
+!web/src/
+local.properties
+gradle/
+gradlew
+gradlew.bat
 *.keystore
-
-# Google Services (e.g. APIs or Firebase)
-google-services.json
-
-# Android Profiling
-*.hprof
+*.jks
+*.env
+node_modules/
